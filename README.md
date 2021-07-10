@@ -1,4 +1,4 @@
-# image-2-pdf
+# Image-2-pdf
 
 
 ## Configs
