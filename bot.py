@@ -23,13 +23,11 @@ LIST = {}
 async def start(client, message):
  await message.reply_text(text =f"""Hello {message.from_user.first_name }image to pdf bot 
 
-i can convert image to pdf
-
-This bot created by @mrlokaman""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
+i can convert image to pdf""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ],
-                 [InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]       ]        ) )
+                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/Tg_x_Coders") ],
+                 [InlineKeyboardButton("Repo 🇮🇳", url="https://gitHub.com/shrvan42/imagetopdfbot") ]       ]        ) )
 
 
 
