@@ -26,7 +26,7 @@ async def start(client, message):
 i can convert image to pdf""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/Tg_x_Coders") ],
+                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/TgxBotz_Chat") ],
                  [InlineKeyboardButton("Repo 🇮🇳", url="https://gitHub.com/shrvan42/imagetopdfbot") ]       ]        ) )
 
 
